@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="ja" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">jp_comic_type</dc:title>
+    <meta property="dcterms:modified">2013-10-24T03:09:36Z</meta>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:spread">landscape</meta>
+    <dc:creator id="creator1">toshiaki koike</dc:creator>
+    <dc:language>ja</dc:language>
+    <dc:identifier id="pub-id">urn:uuid:B6DE52C0-3C59-11E3-A7B0-A9CAFB01E4E5</dc:identifier>
+    <dc:type>comic</dc:type>
+  </metadata>
+  <manifest>
+    <item media-type="application/xhtml+xml" id="toc" href="toc.xhtml" properties="nav" />
+    <item media-type="text/css" id="style-fixed-layout-jp" href="styles/fixed.css" />
+    <item id="cover" href="images/image_000h.jpg" properties="cover-image" media-type="image/jpeg" />
+    <item id="image_002" href="images/image_002.jpg" media-type="image/jpeg" />
+    <item id="image_003" href="images/image_003.jpg" media-type="image/jpeg" />
+    <item id="image_004" href="images/image_004.jpg" media-type="image/jpeg" />
+    <item id="image_005" href="images/image_005.jpg" media-type="image/jpeg" />
+    <item id="book_000" href="text/book_000.xhtml" properties="svg" media-type="application/xhtml+xml" />
+    <item id="book_002" href="text/book_002.xhtml" properties="svg" media-type="application/xhtml+xml" />
+    <item id="book_003" href="text/book_003.xhtml" properties="svg" media-type="application/xhtml+xml" />
+    <item id="book_004" href="text/book_004.xhtml" properties="svg" media-type="application/xhtml+xml" />
+    <item id="book_005" href="text/book_005.xhtml" properties="svg" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine page-progression-direction="rtl">
+    <itemref idref="book_000" properties="rendition:page-spread-center" />
+    <itemref idref="book_002" properties="page-spread-right" />
+    <itemref idref="book_003" properties="page-spread-left" />
+    <itemref idref="book_004" properties="page-spread-right" />
+    <itemref idref="book_005" properties="page-spread-left" />
+  </spine>
+</package>
