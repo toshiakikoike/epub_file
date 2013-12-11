@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="ja" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <!-- TITLE -->
+        <dc:title id="title">Clickable map using SVG</dc:title>
+        <meta refines="#title" property="file-as">Clickable map using SVG</meta>
+        
+        <!-- AUTHOR -->
+        <dc:creator id="creator1">toshiaki koike</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <!-- LANGUAGE -->
+        <dc:language>ja</dc:language>
+        
+        <!-- FILE ID -->
+        <dc:identifier id="pub-id">urn:uuid:059546E8-620D-11E3-8C20-574E20577182</dc:identifier>
+        
+        <!-- MODIFIED DATE -->
+        <meta property="dcterms:modified">2013-12-11T02:36:21Z</meta>
+        <dc:date>2013-12-11T02:36:21Z</dc:date>
+        <!-- Fixed-Layout Documents -->
+        <meta property="rendition:layout">pre-paginated</meta>
+        <meta property="rendition:spread">landscape</meta>
+        
+        <!-- etc. -->
+        <meta name="cover" content="my-cover-image" />
+    </metadata>
+    
+    <manifest>
+        <!-- navigation -->
+        <item media-type="application/xhtml+xml" id="toc" href="toc.xhtml" properties="nav" />
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <!-- style -->
+        <item media-type="text/css" id="style-fixed-layout-jp" href="styles/fixed.css"/>
+        
+        <!-- image -->
+        <item id="my-cover-image" href="images/sample_000h.jpg" properties="cover-image" media-type="image/jpeg" />
+        <item id="sample_002" href="images/sample_002.jpg" media-type="image/jpeg" />
+        <item id="sample_003" href="images/sample_003.jpg" media-type="image/jpeg" />
+        <item id="sample_004" href="images/sample_004.jpg" media-type="image/jpeg" />
+        <item id="sample_005" href="images/sample_005.jpg" media-type="image/jpeg" />
+        <item id="sample_006" href="images/sample_006.jpg" media-type="image/jpeg" />
+        <item id="sample_007" href="images/sample_007.jpg" media-type="image/jpeg" />
+        <item id="sample_008" href="images/sample_008.jpg" media-type="image/jpeg" />
+        <item id="sample_009" href="images/sample_009.jpg" media-type="image/jpeg" />
+        <item id="sample_010" href="images/sample_010.jpg" media-type="image/jpeg" />
+        <item id="sample_011" href="images/sample_011.jpg" media-type="image/jpeg" />
+        <item id="sample_012" href="images/sample_012.jpg" media-type="image/jpeg" />
+        <item id="sample_013" href="images/sample_013.jpg" media-type="image/jpeg" />
+        <item id="sample_014" href="images/sample_014.jpg" media-type="image/jpeg" />
+        <item id="sample_015" href="images/sample_015.jpg" media-type="image/jpeg" />
+        <item id="sample_016" href="images/sample_016.jpg" media-type="image/jpeg" />
+        <item id="sample_017" href="images/sample_017.jpg" media-type="image/jpeg" />
+        <item id="sample_018" href="images/sample_018.jpg" media-type="image/jpeg" />
+        <item id="sample_019" href="images/sample_019.jpg" media-type="image/jpeg" />
+        <item id="sample_020" href="images/sample_020.jpg" media-type="image/jpeg" />
+        <item id="sample_021" href="images/sample_021.jpg" media-type="image/jpeg" />
+        <item id="sample_022" href="images/sample_022.jpg" media-type="image/jpeg" />
+        <item id="sample_023" href="images/sample_023.jpg" media-type="image/jpeg" />
+        <item id="sample_024" href="images/sample_024.jpg" media-type="image/jpeg" />
+        <item id="sample_025" href="images/sample_025.jpg" media-type="image/jpeg" />
+        <item id="sample_026" href="images/sample_026.jpg" media-type="image/jpeg" />
+        <item id="sample_027" href="images/sample_027.jpg" media-type="image/jpeg" />
+        <item id="sample_028" href="images/sample_028.jpg" media-type="image/jpeg" />
+        <item id="sample_029" href="images/sample_029.jpg" media-type="image/jpeg" />
+        <item id="sample_030" href="images/sample_030.jpg" media-type="image/jpeg" />
+        <item id="sample_031" href="images/sample_031.jpg" media-type="image/jpeg" />
+        <item id="sample_032" href="images/sample_032.jpg" media-type="image/jpeg" />
+        <item id="sample_033" href="images/sample_033.jpg" media-type="image/jpeg" />
+        <item id="sample_034" href="images/sample_034.jpg" media-type="image/jpeg" />
+        <item id="sample_035" href="images/sample_035.jpg" media-type="image/jpeg" />
+        <item id="sample_036" href="images/sample_036.jpg" media-type="image/jpeg" />
+        <item id="sample_037" href="images/sample_037.jpg" media-type="image/jpeg" />
+        <item id="sample_038" href="images/sample_038.jpg" media-type="image/jpeg" />
+        <item id="sample_039" href="images/sample_039.jpg" media-type="image/jpeg" />
+        <item id="sample_040" href="images/sample_040.jpg" media-type="image/jpeg" />
+        <item id="sample_041" href="images/sample_041.jpg" media-type="image/jpeg" />
+        <item id="sample_042" href="images/sample_042.jpg" media-type="image/jpeg" />
+        <item id="sample_043" href="images/sample_043.jpg" media-type="image/jpeg" />
+        <item id="sample_044" href="images/sample_044.jpg" media-type="image/jpeg" />
+        <item id="sample_045" href="images/sample_045.jpg" media-type="image/jpeg" />
+        <item id="sample_046" href="images/sample_046.jpg" media-type="image/jpeg" />
+        <item id="sample_047" href="images/sample_047.jpg" media-type="image/jpeg" />
+        <item id="sample_048" href="images/sample_048.jpg" media-type="image/jpeg" />
+        <item id="sample_049" href="images/sample_049.jpg" media-type="image/jpeg" />
+        <item id="sample_050" href="images/sample_050.jpg" media-type="image/jpeg" />
+        <item id="sample_051" href="images/sample_051.jpg" media-type="image/jpeg" />
+        <item id="sample_052" href="images/sample_052.jpg" media-type="image/jpeg" />
+        <item id="sample_053" href="images/sample_053.jpg" media-type="image/jpeg" />
+        <item id="sample_054" href="images/sample_054.jpg" media-type="image/jpeg" />
+        <item id="sample_055" href="images/sample_055.jpg" media-type="image/jpeg" />
+        <item id="sample_056" href="images/sample_056.jpg" media-type="image/jpeg" />
+        <item id="sample_057" href="images/sample_057.jpg" media-type="image/jpeg" />
+        <item id="sample_058" href="images/sample_058.jpg" media-type="image/jpeg" />
+        <item id="sample_059" href="images/sample_059.jpg" media-type="image/jpeg" />
+        <item id="sample_060" href="images/sample_060.jpg" media-type="image/jpeg" />
+        <item id="sample_061" href="images/sample_061.jpg" media-type="image/jpeg" />
+        <item id="sample_062" href="images/sample_062.jpg" media-type="image/jpeg" />
+        <item id="sample_063" href="images/sample_063.jpg" media-type="image/jpeg" />
+        <item id="sample_064" href="images/sample_064.jpg" media-type="image/jpeg" />
+        <item id="sample_065" href="images/sample_065.jpg" media-type="image/jpeg" />
+        <item id="sample_066" href="images/sample_066.jpg" media-type="image/jpeg" />
+        <item id="sample_067" href="images/sample_067.jpg" media-type="image/jpeg" />
+        <item id="sample_068" href="images/sample_068.jpg" media-type="image/jpeg" />
+        <item id="sample_069" href="images/sample_069.jpg" media-type="image/jpeg" />
+        <item id="sample_070" href="images/sample_070.jpg" media-type="image/jpeg" />
+        <item id="sample_071" href="images/sample_071.jpg" media-type="image/jpeg" />
+        <item id="sample_072" href="images/sample_072.jpg" media-type="image/jpeg" />
+        <item id="sample_073" href="images/sample_073.jpg" media-type="image/jpeg" />
+        <item id="sample_074" href="images/sample_074.jpg" media-type="image/jpeg" />
+        <item id="sample_075" href="images/sample_075.jpg" media-type="image/jpeg" />
+        <item id="sample_076" href="images/sample_076.jpg" media-type="image/jpeg" />
+        <item id="sample_077" href="images/sample_077.jpg" media-type="image/jpeg" />
+        <item id="sample_078" href="images/sample_078.jpg" media-type="image/jpeg" />
+        <item id="sample_079" href="images/sample_079.jpg" media-type="image/jpeg" />
+        <item id="sample_080" href="images/sample_080.jpg" media-type="image/jpeg" />
+        <item id="sample_081" href="images/sample_081.jpg" media-type="image/jpeg" />
+        <item id="sample_082" href="images/sample_082.jpg" media-type="image/jpeg" />
+        <item id="sample_083" href="images/sample_083.jpg" media-type="image/jpeg" />
+        <item id="sample_084" href="images/sample_084.jpg" media-type="image/jpeg" />
+        <item id="sample_085" href="images/sample_085.jpg" media-type="image/jpeg" />
+        <item id="sample_086" href="images/sample_086.jpg" media-type="image/jpeg" />
+        <item id="sample_087" href="images/sample_087.jpg" media-type="image/jpeg" />
+        <item id="sample_088" href="images/sample_088.jpg" media-type="image/jpeg" />
+        <item id="sample_089" href="images/sample_089.jpg" media-type="image/jpeg" />
+        <item id="sample_090" href="images/sample_090.jpg" media-type="image/jpeg" />
+        <item id="sample_091" href="images/sample_091.jpg" media-type="image/jpeg" />
+        <item id="sample_092" href="images/sample_092.jpg" media-type="image/jpeg" />
+        <item id="sample_093" href="images/sample_093.jpg" media-type="image/jpeg" />
+        <item id="sample_094" href="images/sample_094.jpg" media-type="image/jpeg" />
+        <item id="sample_095" href="images/sample_095.jpg" media-type="image/jpeg" />
+        <item id="sample_096" href="images/sample_096.jpg" media-type="image/jpeg" />
+        <item id="sample_097" href="images/sample_097.jpg" media-type="image/jpeg" />
+        <item id="sample_098" href="images/sample_098.jpg" media-type="image/jpeg" />
+        <item id="sample_099" href="images/sample_099.jpg" media-type="image/jpeg" />
+        <item id="sample_100" href="images/sample_100.jpg" media-type="image/jpeg" />
+        <item id="sample_101" href="images/sample_101.jpg" media-type="image/jpeg" />
+        <item id="sample_102" href="images/sample_102.jpg" media-type="image/jpeg" />
+        <item id="sample_103" href="images/sample_103.jpg" media-type="image/jpeg" />
+        <item id="sample_104" href="images/sample_104.jpg" media-type="image/jpeg" />
+        <item id="sample_105" href="images/sample_105.jpg" media-type="image/jpeg" />
+        <item id="sample_106" href="images/sample_106.jpg" media-type="image/jpeg" />
+        <item id="sample_107" href="images/sample_107.jpg" media-type="image/jpeg" />
+        <item id="sample_108" href="images/sample_108.jpg" media-type="image/jpeg" />
+        <item id="sample_109" href="images/sample_109.jpg" media-type="image/jpeg" />
+        <item id="sample_110" href="images/sample_110.jpg" media-type="image/jpeg" />
+        <item id="sample_111" href="images/sample_111.jpg" media-type="image/jpeg" />
+        <item id="sample_112" href="images/sample_112.jpg" media-type="image/jpeg" />
+        <item id="sample_113" href="images/sample_113.jpg" media-type="image/jpeg" />
+        <item id="sample_114" href="images/sample_114.jpg" media-type="image/jpeg" />
+        <item id="sample_115" href="images/sample_115.jpg" media-type="image/jpeg" />
+        <item id="sample_116" href="images/sample_116.jpg" media-type="image/jpeg" />
+        <item id="sample_117" href="images/sample_117.jpg" media-type="image/jpeg" />
+        <item id="sample_118" href="images/sample_118.jpg" media-type="image/jpeg" />
+        <item id="sample_119" href="images/sample_119.jpg" media-type="image/jpeg" />
+        <item id="sample_120" href="images/sample_120.jpg" media-type="image/jpeg" />
+        <item id="sample_121" href="images/sample_121.jpg" media-type="image/jpeg" />
+        <item id="sample_122" href="images/sample_122.jpg" media-type="image/jpeg" />
+        <item id="sample_123" href="images/sample_123.jpg" media-type="image/jpeg" />
+        <item id="sample_124" href="images/sample_124.jpg" media-type="image/jpeg" />
+        <item id="sample_125" href="images/sample_125.jpg" media-type="image/jpeg" />
+        <item id="sample_126" href="images/sample_126.jpg" media-type="image/jpeg" />
+        <item id="sample_127" href="images/sample_127.jpg" media-type="image/jpeg" />
+        <item id="sample_128" href="images/sample_128.jpg" media-type="image/jpeg" />
+        <item id="sample_129" href="images/sample_129.jpg" media-type="image/jpeg" />
+        <item id="sample_130" href="images/sample_130.jpg" media-type="image/jpeg" />
+        <item id="sample_131" href="images/sample_131.jpg" media-type="image/jpeg" />
+        <item id="sample_132" href="images/sample_132.jpg" media-type="image/jpeg" />
+        <item id="sample_133" href="images/sample_133.jpg" media-type="image/jpeg" />
+        <item id="sample_134" href="images/sample_134.jpg" media-type="image/jpeg" />
+        <item id="sample_135" href="images/sample_135.jpg" media-type="image/jpeg" />
+        <item id="sample_136" href="images/sample_136.jpg" media-type="image/jpeg" />
+        <item id="sample_137" href="images/sample_137.jpg" media-type="image/jpeg" />
+        <item id="sample_138" href="images/sample_138.jpg" media-type="image/jpeg" />
+        <item id="sample_139" href="images/sample_139.jpg" media-type="image/jpeg" />
+        <item id="sample_140" href="images/sample_140.jpg" media-type="image/jpeg" />
+        <item id="sample_141" href="images/sample_141.jpg" media-type="image/jpeg" />
+        <item id="sample_142" href="images/sample_142.jpg" media-type="image/jpeg" />
+        <item id="sample_143" href="images/sample_143.jpg" media-type="image/jpeg" />
+        <item id="sample_144" href="images/sample_144.jpg" media-type="image/jpeg" />
+        <item id="sample_145" href="images/sample_145.jpg" media-type="image/jpeg" />
+        <item id="sample_146" href="images/sample_146.jpg" media-type="image/jpeg" />
+        <item id="sample_147" href="images/sample_147.jpg" media-type="image/jpeg" />
+        <item id="sample_148" href="images/sample_148.jpg" media-type="image/jpeg" />
+        <item id="sample_149" href="images/sample_149.jpg" media-type="image/jpeg" />
+        <item id="sample_150" href="images/sample_150.jpg" media-type="image/jpeg" />
+        <item id="sample_151" href="images/sample_151.jpg" media-type="image/jpeg" />
+        <item id="sample_152" href="images/sample_152.jpg" media-type="image/jpeg" />
+        <item id="sample_153" href="images/sample_153.jpg" media-type="image/jpeg" />
+        <item id="sample_154" href="images/sample_154.jpg" media-type="image/jpeg" />
+        <item id="sample_155" href="images/sample_155.jpg" media-type="image/jpeg" />
+        <item id="sample_156" href="images/sample_156.jpg" media-type="image/jpeg" />
+        <item id="sample_157" href="images/sample_157.jpg" media-type="image/jpeg" />
+        <item id="sample_158" href="images/sample_158.jpg" media-type="image/jpeg" />
+        <item id="sample_159" href="images/sample_159.jpg" media-type="image/jpeg" />
+        <item id="sample_160" href="images/sample_160.jpg" media-type="image/jpeg" />
+        <item id="sample_161" href="images/sample_161.jpg" media-type="image/jpeg" />
+        <item id="sample_162" href="images/sample_162.jpg" media-type="image/jpeg" />
+        <item id="sample_163" href="images/sample_163.jpg" media-type="image/jpeg" />
+        <item id="sample_164" href="images/sample_164.jpg" media-type="image/jpeg" />
+        <item id="sample_165" href="images/sample_165.jpg" media-type="image/jpeg" />
+        <item id="sample_166" href="images/sample_166.jpg" media-type="image/jpeg" />
+        <item id="sample_167" href="images/sample_167.jpg" media-type="image/jpeg" />
+        <item id="sample_168" href="images/sample_168.jpg" media-type="image/jpeg" />
+        <item id="sample_169" href="images/sample_169.jpg" media-type="image/jpeg" />
+        <item id="sample_170" href="images/sample_170.jpg" media-type="image/jpeg" />
+        <item id="sample_171" href="images/sample_171.jpg" media-type="image/jpeg" />
+        <item id="sample_172" href="images/sample_172.jpg" media-type="image/jpeg" />
+        <item id="sample_173" href="images/sample_173.jpg" media-type="image/jpeg" />
+        <item id="sample_174" href="images/sample_174.jpg" media-type="image/jpeg" />
+        <item id="sample_175" href="images/sample_175.jpg" media-type="image/jpeg" />
+        <item id="sample_176" href="images/sample_176.jpg" media-type="image/jpeg" />
+        <item id="sample_177" href="images/sample_177.jpg" media-type="image/jpeg" />
+        <item id="sample_178" href="images/sample_178.jpg" media-type="image/jpeg" />
+        <item id="sample_179" href="images/sample_179.jpg" media-type="image/jpeg" />
+        <item id="sample_180" href="images/sample_180.jpg" media-type="image/jpeg" />
+        <item id="sample_181" href="images/sample_181.jpg" media-type="image/jpeg" />
+        <item id="sample_182" href="images/sample_182.jpg" media-type="image/jpeg" />
+        <item id="sample_183" href="images/sample_183.jpg" media-type="image/jpeg" />
+        <item id="sample_184" href="images/sample_184.jpg" media-type="image/jpeg" />
+        <item id="sample_185" href="images/sample_185.jpg" media-type="image/jpeg" />
+        <item id="sample_186" href="images/sample_186.jpg" media-type="image/jpeg" />
+        <item id="sample_187" href="images/sample_187.jpg" media-type="image/jpeg" />
+        <item id="sample_188" href="images/sample_188.jpg" media-type="image/jpeg" />
+        <item id="sample_189" href="images/sample_189.jpg" media-type="image/jpeg" />
+        <item id="sample_190" href="images/sample_190.jpg" media-type="image/jpeg" />
+        <item id="sample_191" href="images/sample_191.jpg" media-type="image/jpeg" />
+        <item id="sample_192" href="images/sample_192.jpg" media-type="image/jpeg" />
+        <item id="sample_193" href="images/sample_193.jpg" media-type="image/jpeg" />
+        <item id="sample_194" href="images/sample_194.jpg" media-type="image/jpeg" />
+        <item id="sample_195" href="images/sample_195.jpg" media-type="image/jpeg" />
+        <item id="sample_196" href="images/sample_196.jpg" media-type="image/jpeg" />
+        <item id="sample_197" href="images/sample_197.jpg" media-type="image/jpeg" />
+        <item id="sample_198" href="images/sample_198.jpg" media-type="image/jpeg" />
+        <item id="sample_199oku" href="images/sample_199oku.jpg" media-type="image/jpeg" />
+        <item id="sample_200cre" href="images/sample_200cre.jpg" media-type="image/jpeg" />
+        
+        <!-- xhtml -->
+        <item id="book_000" href="text/book_000.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_002" href="text/book_002.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_003" href="text/book_003.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_004" href="text/book_004.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_005" href="text/book_005.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_006" href="text/book_006.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_007" href="text/book_007.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_008" href="text/book_008.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_009" href="text/book_009.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_010" href="text/book_010.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_011" href="text/book_011.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_012" href="text/book_012.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_013" href="text/book_013.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_014" href="text/book_014.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_015" href="text/book_015.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_016" href="text/book_016.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_017" href="text/book_017.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_018" href="text/book_018.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_019" href="text/book_019.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_020" href="text/book_020.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_021" href="text/book_021.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_022" href="text/book_022.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_023" href="text/book_023.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_024" href="text/book_024.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_025" href="text/book_025.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_026" href="text/book_026.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_027" href="text/book_027.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_028" href="text/book_028.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_029" href="text/book_029.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_030" href="text/book_030.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_031" href="text/book_031.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_032" href="text/book_032.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_033" href="text/book_033.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_034" href="text/book_034.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_035" href="text/book_035.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_036" href="text/book_036.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_037" href="text/book_037.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_038" href="text/book_038.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_039" href="text/book_039.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_040" href="text/book_040.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_041" href="text/book_041.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_042" href="text/book_042.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_043" href="text/book_043.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_044" href="text/book_044.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_045" href="text/book_045.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_046" href="text/book_046.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_047" href="text/book_047.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_048" href="text/book_048.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_049" href="text/book_049.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_050" href="text/book_050.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_051" href="text/book_051.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_052" href="text/book_052.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_053" href="text/book_053.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_054" href="text/book_054.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_055" href="text/book_055.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_056" href="text/book_056.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_057" href="text/book_057.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_058" href="text/book_058.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_059" href="text/book_059.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_060" href="text/book_060.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_061" href="text/book_061.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_062" href="text/book_062.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_063" href="text/book_063.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_064" href="text/book_064.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_065" href="text/book_065.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_066" href="text/book_066.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_067" href="text/book_067.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_068" href="text/book_068.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_069" href="text/book_069.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_070" href="text/book_070.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_071" href="text/book_071.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_072" href="text/book_072.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_073" href="text/book_073.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_074" href="text/book_074.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_075" href="text/book_075.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_076" href="text/book_076.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_077" href="text/book_077.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_078" href="text/book_078.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_079" href="text/book_079.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_080" href="text/book_080.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_081" href="text/book_081.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_082" href="text/book_082.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_083" href="text/book_083.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_084" href="text/book_084.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_085" href="text/book_085.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_086" href="text/book_086.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_087" href="text/book_087.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_088" href="text/book_088.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_089" href="text/book_089.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_090" href="text/book_090.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_091" href="text/book_091.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_092" href="text/book_092.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_093" href="text/book_093.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_094" href="text/book_094.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_095" href="text/book_095.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_096" href="text/book_096.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_097" href="text/book_097.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_098" href="text/book_098.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_099" href="text/book_099.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_100" href="text/book_100.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_101" href="text/book_101.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_102" href="text/book_102.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_103" href="text/book_103.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_104" href="text/book_104.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_105" href="text/book_105.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_106" href="text/book_106.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_107" href="text/book_107.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_108" href="text/book_108.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_109" href="text/book_109.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_110" href="text/book_110.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_111" href="text/book_111.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_112" href="text/book_112.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_113" href="text/book_113.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_114" href="text/book_114.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_115" href="text/book_115.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_116" href="text/book_116.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_117" href="text/book_117.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_118" href="text/book_118.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_119" href="text/book_119.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_120" href="text/book_120.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_121" href="text/book_121.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_122" href="text/book_122.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_123" href="text/book_123.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_124" href="text/book_124.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_125" href="text/book_125.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_126" href="text/book_126.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_127" href="text/book_127.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_128" href="text/book_128.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_129" href="text/book_129.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_130" href="text/book_130.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_131" href="text/book_131.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_132" href="text/book_132.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_133" href="text/book_133.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_134" href="text/book_134.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_135" href="text/book_135.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_136" href="text/book_136.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_137" href="text/book_137.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_138" href="text/book_138.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_139" href="text/book_139.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_140" href="text/book_140.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_141" href="text/book_141.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_142" href="text/book_142.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_143" href="text/book_143.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_144" href="text/book_144.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_145" href="text/book_145.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_146" href="text/book_146.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_147" href="text/book_147.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_148" href="text/book_148.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_149" href="text/book_149.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_150" href="text/book_150.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_151" href="text/book_151.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_152" href="text/book_152.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_153" href="text/book_153.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_154" href="text/book_154.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_155" href="text/book_155.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_156" href="text/book_156.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_157" href="text/book_157.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_158" href="text/book_158.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_159" href="text/book_159.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_160" href="text/book_160.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_161" href="text/book_161.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_162" href="text/book_162.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_163" href="text/book_163.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_164" href="text/book_164.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_165" href="text/book_165.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_166" href="text/book_166.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_167" href="text/book_167.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_168" href="text/book_168.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_169" href="text/book_169.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_170" href="text/book_170.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_171" href="text/book_171.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_172" href="text/book_172.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_173" href="text/book_173.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_174" href="text/book_174.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_175" href="text/book_175.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_176" href="text/book_176.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_177" href="text/book_177.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_178" href="text/book_178.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_179" href="text/book_179.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_180" href="text/book_180.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_181" href="text/book_181.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_182" href="text/book_182.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_183" href="text/book_183.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_184" href="text/book_184.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_185" href="text/book_185.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_186" href="text/book_186.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_187" href="text/book_187.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_188" href="text/book_188.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_189" href="text/book_189.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_190" href="text/book_190.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_191" href="text/book_191.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_192" href="text/book_192.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_193" href="text/book_193.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_194" href="text/book_194.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_195" href="text/book_195.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_196" href="text/book_196.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_197" href="text/book_197.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_198" href="text/book_198.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_199" href="text/book_199.xhtml" properties="svg" media-type="application/xhtml+xml" />
+        <item id="book_200" href="text/book_200.xhtml" properties="svg" media-type="application/xhtml+xml" />
+    
+    </manifest>
+    
+    <spine page-progression-direction="rtl" toc="ncx">
+        <itemref idref="book_000" properties="rendition:page-spread-center"/>
+        <itemref idref="book_002" properties="page-spread-right"/>
+        <itemref idref="book_003" properties="page-spread-left"/>
+        <itemref idref="book_004" properties="page-spread-right"/>
+        <itemref idref="book_005" properties="page-spread-left"/>
+        <itemref idref="book_006" properties="page-spread-right"/>
+        <itemref idref="book_007" properties="page-spread-left"/>
+        <itemref idref="book_008" properties="page-spread-right"/>
+        <itemref idref="book_009" properties="page-spread-left"/>
+        <itemref idref="book_010" properties="page-spread-right"/>
+        <itemref idref="book_011" properties="page-spread-left"/>
+        <itemref idref="book_012" properties="page-spread-right"/>
+        <itemref idref="book_013" properties="page-spread-left"/>
+        <itemref idref="book_014" properties="page-spread-right"/>
+        <itemref idref="book_015" properties="page-spread-left"/>
+        <itemref idref="book_016" properties="page-spread-right"/>
+        <itemref idref="book_017" properties="page-spread-left"/>
+        <itemref idref="book_018" properties="page-spread-right"/>
+        <itemref idref="book_019" properties="page-spread-left"/>
+        <itemref idref="book_020" properties="page-spread-right"/>
+        <itemref idref="book_021" properties="page-spread-left"/>
+        <itemref idref="book_022" properties="page-spread-right"/>
+        <itemref idref="book_023" properties="page-spread-left"/>
+        <itemref idref="book_024" properties="page-spread-right"/>
+        <itemref idref="book_025" properties="page-spread-left"/>
+        <itemref idref="book_026" properties="page-spread-right"/>
+        <itemref idref="book_027" properties="page-spread-left"/>
+        <itemref idref="book_028" properties="page-spread-right"/>
+        <itemref idref="book_029" properties="page-spread-left"/>
+        <itemref idref="book_030" properties="page-spread-right"/>
+        <itemref idref="book_031" properties="page-spread-left"/>
+        <itemref idref="book_032" properties="page-spread-right"/>
+        <itemref idref="book_033" properties="page-spread-left"/>
+        <itemref idref="book_034" properties="page-spread-right"/>
+        <itemref idref="book_035" properties="page-spread-left"/>
+        <itemref idref="book_036" properties="page-spread-right"/>
+        <itemref idref="book_037" properties="page-spread-left"/>
+        <itemref idref="book_038" properties="page-spread-right"/>
+        <itemref idref="book_039" properties="page-spread-left"/>
+        <itemref idref="book_040" properties="page-spread-right"/>
+        <itemref idref="book_041" properties="page-spread-left"/>
+        <itemref idref="book_042" properties="page-spread-right"/>
+        <itemref idref="book_043" properties="page-spread-left"/>
+        <itemref idref="book_044" properties="page-spread-right"/>
+        <itemref idref="book_045" properties="page-spread-left"/>
+        <itemref idref="book_046" properties="page-spread-right"/>
+        <itemref idref="book_047" properties="page-spread-left"/>
+        <itemref idref="book_048" properties="page-spread-right"/>
+        <itemref idref="book_049" properties="page-spread-left"/>
+        <itemref idref="book_050" properties="page-spread-right"/>
+        <itemref idref="book_051" properties="page-spread-left"/>
+        <itemref idref="book_052" properties="page-spread-right"/>
+        <itemref idref="book_053" properties="page-spread-left"/>
+        <itemref idref="book_054" properties="page-spread-right"/>
+        <itemref idref="book_055" properties="page-spread-left"/>
+        <itemref idref="book_056" properties="page-spread-right"/>
+        <itemref idref="book_057" properties="page-spread-left"/>
+        <itemref idref="book_058" properties="page-spread-right"/>
+        <itemref idref="book_059" properties="page-spread-left"/>
+        <itemref idref="book_060" properties="page-spread-right"/>
+        <itemref idref="book_061" properties="page-spread-left"/>
+        <itemref idref="book_062" properties="page-spread-right"/>
+        <itemref idref="book_063" properties="page-spread-left"/>
+        <itemref idref="book_064" properties="page-spread-right"/>
+        <itemref idref="book_065" properties="page-spread-left"/>
+        <itemref idref="book_066" properties="page-spread-right"/>
+        <itemref idref="book_067" properties="page-spread-left"/>
+        <itemref idref="book_068" properties="page-spread-right"/>
+        <itemref idref="book_069" properties="page-spread-left"/>
+        <itemref idref="book_070" properties="page-spread-right"/>
+        <itemref idref="book_071" properties="page-spread-left"/>
+        <itemref idref="book_072" properties="page-spread-right"/>
+        <itemref idref="book_073" properties="page-spread-left"/>
+        <itemref idref="book_074" properties="page-spread-right"/>
+        <itemref idref="book_075" properties="page-spread-left"/>
+        <itemref idref="book_076" properties="page-spread-right"/>
+        <itemref idref="book_077" properties="page-spread-left"/>
+        <itemref idref="book_078" properties="page-spread-right"/>
+        <itemref idref="book_079" properties="page-spread-left"/>
+        <itemref idref="book_080" properties="page-spread-right"/>
+        <itemref idref="book_081" properties="page-spread-left"/>
+        <itemref idref="book_082" properties="page-spread-right"/>
+        <itemref idref="book_083" properties="page-spread-left"/>
+        <itemref idref="book_084" properties="page-spread-right"/>
+        <itemref idref="book_085" properties="page-spread-left"/>
+        <itemref idref="book_086" properties="page-spread-right"/>
+        <itemref idref="book_087" properties="page-spread-left"/>
+        <itemref idref="book_088" properties="page-spread-right"/>
+        <itemref idref="book_089" properties="page-spread-left"/>
+        <itemref idref="book_090" properties="page-spread-right"/>
+        <itemref idref="book_091" properties="page-spread-left"/>
+        <itemref idref="book_092" properties="page-spread-right"/>
+        <itemref idref="book_093" properties="page-spread-left"/>
+        <itemref idref="book_094" properties="page-spread-right"/>
+        <itemref idref="book_095" properties="page-spread-left"/>
+        <itemref idref="book_096" properties="page-spread-right"/>
+        <itemref idref="book_097" properties="page-spread-left"/>
+        <itemref idref="book_098" properties="page-spread-right"/>
+        <itemref idref="book_099" properties="page-spread-left"/>
+        <itemref idref="book_100" properties="page-spread-right"/>
+        <itemref idref="book_101" properties="page-spread-left"/>
+        <itemref idref="book_102" properties="page-spread-right"/>
+        <itemref idref="book_103" properties="page-spread-left"/>
+        <itemref idref="book_104" properties="page-spread-right"/>
+        <itemref idref="book_105" properties="page-spread-left"/>
+        <itemref idref="book_106" properties="page-spread-right"/>
+        <itemref idref="book_107" properties="page-spread-left"/>
+        <itemref idref="book_108" properties="page-spread-right"/>
+        <itemref idref="book_109" properties="page-spread-left"/>
+        <itemref idref="book_110" properties="page-spread-right"/>
+        <itemref idref="book_111" properties="page-spread-left"/>
+        <itemref idref="book_112" properties="page-spread-right"/>
+        <itemref idref="book_113" properties="page-spread-left"/>
+        <itemref idref="book_114" properties="page-spread-right"/>
+        <itemref idref="book_115" properties="page-spread-left"/>
+        <itemref idref="book_116" properties="page-spread-right"/>
+        <itemref idref="book_117" properties="page-spread-left"/>
+        <itemref idref="book_118" properties="page-spread-right"/>
+        <itemref idref="book_119" properties="page-spread-left"/>
+        <itemref idref="book_120" properties="page-spread-right"/>
+        <itemref idref="book_121" properties="page-spread-left"/>
+        <itemref idref="book_122" properties="page-spread-right"/>
+        <itemref idref="book_123" properties="page-spread-left"/>
+        <itemref idref="book_124" properties="page-spread-right"/>
+        <itemref idref="book_125" properties="page-spread-left"/>
+        <itemref idref="book_126" properties="page-spread-right"/>
+        <itemref idref="book_127" properties="page-spread-left"/>
+        <itemref idref="book_128" properties="page-spread-right"/>
+        <itemref idref="book_129" properties="page-spread-left"/>
+        <itemref idref="book_130" properties="page-spread-right"/>
+        <itemref idref="book_131" properties="page-spread-left"/>
+        <itemref idref="book_132" properties="page-spread-right"/>
+        <itemref idref="book_133" properties="page-spread-left"/>
+        <itemref idref="book_134" properties="page-spread-right"/>
+        <itemref idref="book_135" properties="page-spread-left"/>
+        <itemref idref="book_136" properties="page-spread-right"/>
+        <itemref idref="book_137" properties="page-spread-left"/>
+        <itemref idref="book_138" properties="page-spread-right"/>
+        <itemref idref="book_139" properties="page-spread-left"/>
+        <itemref idref="book_140" properties="page-spread-right"/>
+        <itemref idref="book_141" properties="page-spread-left"/>
+        <itemref idref="book_142" properties="page-spread-right"/>
+        <itemref idref="book_143" properties="page-spread-left"/>
+        <itemref idref="book_144" properties="page-spread-right"/>
+        <itemref idref="book_145" properties="page-spread-left"/>
+        <itemref idref="book_146" properties="page-spread-right"/>
+        <itemref idref="book_147" properties="page-spread-left"/>
+        <itemref idref="book_148" properties="page-spread-right"/>
+        <itemref idref="book_149" properties="page-spread-left"/>
+        <itemref idref="book_150" properties="page-spread-right"/>
+        <itemref idref="book_151" properties="page-spread-left"/>
+        <itemref idref="book_152" properties="page-spread-right"/>
+        <itemref idref="book_153" properties="page-spread-left"/>
+        <itemref idref="book_154" properties="page-spread-right"/>
+        <itemref idref="book_155" properties="page-spread-left"/>
+        <itemref idref="book_156" properties="page-spread-right"/>
+        <itemref idref="book_157" properties="page-spread-left"/>
+        <itemref idref="book_158" properties="page-spread-right"/>
+        <itemref idref="book_159" properties="page-spread-left"/>
+        <itemref idref="book_160" properties="page-spread-right"/>
+        <itemref idref="book_161" properties="page-spread-left"/>
+        <itemref idref="book_162" properties="page-spread-right"/>
+        <itemref idref="book_163" properties="page-spread-left"/>
+        <itemref idref="book_164" properties="page-spread-right"/>
+        <itemref idref="book_165" properties="page-spread-left"/>
+        <itemref idref="book_166" properties="page-spread-right"/>
+        <itemref idref="book_167" properties="page-spread-left"/>
+        <itemref idref="book_168" properties="page-spread-right"/>
+        <itemref idref="book_169" properties="page-spread-left"/>
+        <itemref idref="book_170" properties="page-spread-right"/>
+        <itemref idref="book_171" properties="page-spread-left"/>
+        <itemref idref="book_172" properties="page-spread-right"/>
+        <itemref idref="book_173" properties="page-spread-left"/>
+        <itemref idref="book_174" properties="page-spread-right"/>
+        <itemref idref="book_175" properties="page-spread-left"/>
+        <itemref idref="book_176" properties="page-spread-right"/>
+        <itemref idref="book_177" properties="page-spread-left"/>
+        <itemref idref="book_178" properties="page-spread-right"/>
+        <itemref idref="book_179" properties="page-spread-left"/>
+        <itemref idref="book_180" properties="page-spread-right"/>
+        <itemref idref="book_181" properties="page-spread-left"/>
+        <itemref idref="book_182" properties="page-spread-right"/>
+        <itemref idref="book_183" properties="page-spread-left"/>
+        <itemref idref="book_184" properties="page-spread-right"/>
+        <itemref idref="book_185" properties="page-spread-left"/>
+        <itemref idref="book_186" properties="page-spread-right"/>
+        <itemref idref="book_187" properties="page-spread-left"/>
+        <itemref idref="book_188" properties="page-spread-right"/>
+        <itemref idref="book_189" properties="page-spread-left"/>
+        <itemref idref="book_190" properties="page-spread-right"/>
+        <itemref idref="book_191" properties="page-spread-left"/>
+        <itemref idref="book_192" properties="page-spread-right"/>
+        <itemref idref="book_193" properties="page-spread-left"/>
+        <itemref idref="book_194" properties="page-spread-right"/>
+        <itemref idref="book_195" properties="page-spread-left"/>
+        <itemref idref="book_196" properties="page-spread-right"/>
+        <itemref idref="book_197" properties="page-spread-left"/>
+        <itemref idref="book_198" properties="page-spread-right"/>
+        <itemref idref="book_199" properties="page-spread-left"/>
+        <itemref idref="book_200" properties="page-spread-right"/>
+    
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover" href="text/book_000.xhtml" />
+    </guide>
+</package>

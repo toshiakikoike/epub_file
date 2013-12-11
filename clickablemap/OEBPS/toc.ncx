@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:059546E8-620D-11E3-8C20-574E20577182" />
+		<meta name="dtb:depth" content="1" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>Clickable map using SVG</text>
+	</docTitle>
+	<docAuthor>
+		<text></text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="navPoint-1" playOrder="1">
+			<navLabel>
+				<text>Clickable map using SVG</text>
+			</navLabel>
+			<content src="text/book_000.xhtml#top" />
+				<navPoint id="navPoint-2" playOrder="2">
+					<navLabel><text>５ページ目</text>
+					</navLabel>
+					<content src="text/book_005.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-3" playOrder="3">
+					<navLabel><text>６ページ目</text>
+					</navLabel>
+					<content src="text/book_006.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-4" playOrder="4">
+					<navLabel><text>９ページ目</text>
+					</navLabel>
+					<content src="text/book_009.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-5" playOrder="5">
+					<navLabel><text>２１ページへ</text>
+					</navLabel>
+					<content src="text/book_021.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-6" playOrder="6">
+					<navLabel><text>２３ページへ</text>
+					</navLabel>
+					<content src="text/book_023.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-7" playOrder="7">
+					<navLabel><text>５１ページへ</text>
+					</navLabel>
+					<content src="text/book_051.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-8" playOrder="8">
+					<navLabel><text>６１ページへ</text>
+					</navLabel>
+					<content src="text/book_061.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-9" playOrder="9">
+					<navLabel><text>６３ページへ</text>
+					</navLabel>
+					<content src="text/book_063.xhtml" />
+				</navPoint>
+				<navPoint id="navPoint-10" playOrder="10">
+					<navLabel><text>８１ページへ</text>
+					</navLabel>
+					<content src="text/book_081.xhtml" />
+				</navPoint>
+		</navPoint>
+	</navMap>
+</ncx>
