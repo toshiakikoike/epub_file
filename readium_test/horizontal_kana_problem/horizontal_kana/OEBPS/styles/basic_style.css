@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@page {
+   margin:8%;
+}
+
+body {
+   font-size:100%;
+   line-height: 1.6; /* 行送り（横書きの場合、若干行送りを狭める） */
+   font-family: "Hiragino Mincho ProN","ヒラギノ明朝 Pro W3","IPAexMincho","IPAex明朝","MS Mincho","ＭＳ 明朝",serif;
+}
+h1 {
+   fontsize:150%;
+   font-family: "HiraKakuProN-W3","ヒラギノ角ゴ Pro W3","MS Gothic","ＭＳ ゴシック",sans-serif;
+}
