@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:FF20CA94-BF82-11E7-A0B6-EDE80445B5D7" />
+		<meta name="dtb:depth" content="1" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>The Hound of the Baskervilles</text>
+	</docTitle>
+	<docAuthor>
+		<text>Arthur Conan Doyle</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="navPoint-1" playOrder="1">
+			<navLabel>
+				<text>The Hound of the Baskervilles</text>
+			</navLabel>
+			<content src="text/book_0000.xhtml" />
+			<navPoint id="navPoint-2" playOrder="2">
+				<navLabel>
+					<text>Project Gutenberg&apos;s The Hound of the Baskervilles, by Arthur Conan Doyle</text>
+				</navLabel>
+				<content src="text/book_0002.xhtml#toc-001" />
+				<navPoint id="navPoint-3" playOrder="3">
+					<navLabel>
+						<text>Chapter 1</text>
+					</navLabel>
+					<content src="text/book_0003.xhtml#toc-002" />
+				</navPoint>
+				<navPoint id="navPoint-4" playOrder="4">
+					<navLabel>
+						<text>Chapter 2</text>
+					</navLabel>
+					<content src="text/book_0003.xhtml#toc-003" />
+				</navPoint>
+				<navPoint id="navPoint-5" playOrder="5">
+					<navLabel>
+						<text>Chapter 3</text>
+					</navLabel>
+					<content src="text/book_0003.xhtml#toc-004" />
+				</navPoint>
+				<navPoint id="navPoint-6" playOrder="6">
+					<navLabel>
+						<text>Chapter 4</text>
+					</navLabel>
+					<content src="text/book_0004.xhtml#toc-005" />
+				</navPoint>
+				<navPoint id="navPoint-7" playOrder="7">
+					<navLabel>
+						<text>Chapter 5</text>
+					</navLabel>
+					<content src="text/book_0004.xhtml#toc-006" />
+				</navPoint>
+				<navPoint id="navPoint-8" playOrder="8">
+					<navLabel>
+						<text>Chapter 7</text>
+					</navLabel>
+					<content src="text/book_0005.xhtml#toc-007" />
+				</navPoint>
+				<navPoint id="navPoint-9" playOrder="9">
+					<navLabel>
+						<text>Chapter 8</text>
+					</navLabel>
+					<content src="text/book_0005.xhtml#toc-008" />
+				</navPoint>
+				<navPoint id="navPoint-10" playOrder="10">
+					<navLabel>
+						<text>Chapter 9</text>
+					</navLabel>
+					<content src="text/book_0005.xhtml#toc-009" />
+				</navPoint>
+				<navPoint id="navPoint-11" playOrder="11">
+					<navLabel>
+						<text>Chapter 10</text>
+					</navLabel>
+					<content src="text/book_0006.xhtml#toc-010" />
+				</navPoint>
+				<navPoint id="navPoint-12" playOrder="12">
+					<navLabel>
+						<text>Chapter 11</text>
+					</navLabel>
+					<content src="text/book_0006.xhtml#toc-011" />
+				</navPoint>
+				<navPoint id="navPoint-13" playOrder="13">
+					<navLabel>
+						<text>Chapter 12</text>
+					</navLabel>
+					<content src="text/book_0006.xhtml#toc-012" />
+				</navPoint>
+				<navPoint id="navPoint-14" playOrder="14">
+					<navLabel>
+						<text>Chapter 13</text>
+					</navLabel>
+					<content src="text/book_0007.xhtml#toc-013" />
+				</navPoint>
+				<navPoint id="navPoint-15" playOrder="15">
+					<navLabel>
+						<text>Chapter 14</text>
+					</navLabel>
+					<content src="text/book_0007.xhtml#toc-014" />
+				</navPoint>
+				<navPoint id="navPoint-16" playOrder="16">
+					<navLabel>
+						<text>Chapter 15</text>
+					</navLabel>
+					<content src="text/book_0007.xhtml#toc-015" />
+				</navPoint>
+				<navPoint id="navPoint-17" playOrder="17">
+					<navLabel>
+						<text>About</text>
+					</navLabel>
+					<content src="text/book_0008.xhtml#toc-016" />
+						<navPoint id="navPoint-18" playOrder="18">
+							<navLabel>
+								<text>START: FULL LICENSE</text>
+							</navLabel>
+							<content src="text/book_0008.xhtml#toc-017" />
+						</navPoint>
+					</navPoint>
+			</navPoint>
+		</navPoint>
+	</navMap>
+</ncx>

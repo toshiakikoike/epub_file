@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0" xml:lang="ja" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">The Hound of the Baskervilles</dc:title>
+        
+        <dc:creator id="creator1">Arthur Conan Doyle</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role1">aut</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <dc:language>ja</dc:language>
+        <dc:identifier id="pub-id">urn:uuid:FF20CA94-BF82-11E7-A0B6-EDE80445B5D7</dc:identifier>
+        <dc:date>2017-11-02T04:05:00Z</dc:date>
+        <meta property="dcterms:modified">2017-11-02T04:14:56Z</meta>
+        <meta name="cover" content="my-cover-image" />
+        <meta property="ibooks:respect-image-size-class">gaiji</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+
+    </metadata>
+    <manifest>
+        <item id="TOC" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml" />
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <item id="XHTML0000" href="text/book_0000.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0002" href="text/book_0002.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0003" href="text/book_0003.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0004" href="text/book_0004.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0005" href="text/book_0005.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0006" href="text/book_0006.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0007" href="text/book_0007.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0008" href="text/book_0008.xhtml" media-type="application/xhtml+xml" />
+        <item id="my-cover-image" href="images/cover.png" properties="cover-image" media-type="image/png" />
+        <item id="CSS1" href="styles/ebook_common.css" media-type="text/css" />
+        <item id="CSS2" href="styles/ebook_style.css" media-type="text/css" />
+        <item id="CSS3" href="styles/ebook_style_v.css" media-type="text/css" />
+        <item id="CSS4" href="styles/ebook_style_h.css" media-type="text/css" />
+    </manifest>
+    <spine page-progression-direction="rtl" toc="ncx">
+        <itemref idref="XHTML0000" />
+        <itemref idref="XHTML0002" />
+        <itemref idref="XHTML0003" />
+        <itemref idref="XHTML0004" />
+        <itemref idref="XHTML0005" />
+        <itemref idref="XHTML0006" />
+        <itemref idref="XHTML0007" />
+        <itemref idref="XHTML0008" />
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover" href="text/book_0000.xhtml" />
+
+        <reference type="text" title="Bodymatter" href="text/book_0002.xhtml" />
+    </guide>
+</package>
