@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0" xml:lang="ja" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">小さなメディアの必要</dc:title>
+        <meta refines="#title" property="file-as">チイサナメディアノヒツヨウ</meta>
+        <meta refines="#title" property="alternate-script" xml:lang="ja-kana-jp">チイサナメディアノヒツヨウ</meta>
+        <dc:creator id="creator1">津野海太郎</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role1">aut</meta>
+        <meta refines="#creator1" property="file-as">ツノカイタロウ</meta>
+        <meta refines="#creator1" property="alternate-script" xml:lang="ja-kana-jp">ツノカイタロウ</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        <dc:publisher>株式会社ボイジャー</dc:publisher>
+        <dc:language>ja</dc:language>
+        <dc:identifier id="pub-id">urn:uuid:40D97B62-B7B7-11E7-A8FF-E40C64D0BE77</dc:identifier>
+        <dc:date>2017-10-23T05:58:55Z</dc:date>
+        <meta property="dcterms:modified">2017-10-23T06:06:45Z</meta>
+        <meta name="cover" content="my-cover-image" />
+        <meta property="ibooks:respect-image-size-class">gaiji</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:spread">auto</meta>
+        <meta property="rendition:orientation">auto</meta>
+    </metadata>
+    <manifest>
+        <item id="TOC" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml" />
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <item id="XHTML0000" href="text/book_0000.xhtml" media-type="application/xhtml+xml" properties="svg" />
+        <item id="XHTML0001" href="text/book_0001.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0002" href="text/book_0002.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0003" href="text/book_0003.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0004" href="text/book_0004.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0005" href="text/book_0005.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0006" href="text/book_0006.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0007" href="text/book_0007.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0008" href="text/book_0008.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0009" href="text/book_0009.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0010" href="text/book_0010.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0011" href="text/book_0011.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0012" href="text/book_0012.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0013" href="text/book_0013.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0014" href="text/book_0014.xhtml" media-type="application/xhtml+xml" />
+        <item id="my-cover-image" href="images/cover.png" properties="cover-image" media-type="image/png" />
+        <item id="IMG0001" href="images/image1.png" media-type="image/png" />
+        <item id="IMG0002" href="images/image10.png" media-type="image/png" />
+        <item id="IMG0003" href="images/image11.png" media-type="image/png" />
+        <item id="IMG0004" href="images/image12.png" media-type="image/png" />
+        <item id="IMG0005" href="images/image13.png" media-type="image/png" />
+        <item id="IMG0006" href="images/image14.png" media-type="image/png" />
+        <item id="IMG0007" href="images/image15.png" media-type="image/png" />
+        <item id="IMG0008" href="images/image16.png" media-type="image/png" />
+        <item id="IMG0009" href="images/image17.png" media-type="image/png" />
+        <item id="IMG0010" href="images/image18.png" media-type="image/png" />
+        <item id="IMG0011" href="images/image19.png" media-type="image/png" />
+        <item id="IMG0012" href="images/image2.png" media-type="image/png" />
+        <item id="IMG0013" href="images/image20.png" media-type="image/png" />
+        <item id="IMG0014" href="images/image21.png" media-type="image/png" />
+        <item id="IMG0015" href="images/image22.png" media-type="image/png" />
+        <item id="IMG0016" href="images/image23.png" media-type="image/png" />
+        <item id="IMG0017" href="images/image24.png" media-type="image/png" />
+        <item id="IMG0018" href="images/image25.png" media-type="image/png" />
+        <item id="IMG0019" href="images/image26.png" media-type="image/png" />
+        <item id="IMG0020" href="images/image27.png" media-type="image/png" />
+        <item id="IMG0021" href="images/image28.png" media-type="image/png" />
+        <item id="IMG0022" href="images/image29.png" media-type="image/png" />
+        <item id="IMG0023" href="images/image3.png" media-type="image/png" />
+        <item id="IMG0024" href="images/image30.png" media-type="image/png" />
+        <item id="IMG0025" href="images/image31.png" media-type="image/png" />
+        <item id="IMG0026" href="images/image32.png" media-type="image/png" />
+        <item id="IMG0027" href="images/image33.png" media-type="image/png" />
+        <item id="IMG0028" href="images/image34.png" media-type="image/png" />
+        <item id="IMG0029" href="images/image35.png" media-type="image/png" />
+        <item id="IMG0030" href="images/image4.png" media-type="image/png" />
+        <item id="IMG0031" href="images/image5.png" media-type="image/png" />
+        <item id="IMG0032" href="images/image6.png" media-type="image/png" />
+        <item id="IMG0033" href="images/image7.png" media-type="image/png" />
+        <item id="IMG0034" href="images/image8.png" media-type="image/png" />
+        <item id="IMG0035" href="images/image9.png" media-type="image/png" />
+        <item id="CSS1" href="styles/ebook_common.css" media-type="text/css" />
+        <item id="CSS2" href="styles/ebook_style.css" media-type="text/css" />
+        <item id="CSS3" href="styles/ebook_style_v.css" media-type="text/css" />
+        <item id="CSS5" href="styles/ebook_style_x.css" media-type="text/css" />
+        <item id="CSS4" href="styles/ebook_style_h.css" media-type="text/css" />
+    </manifest>
+    <spine page-progression-direction="rtl" toc="ncx">
+        <itemref idref="XHTML0000" properties="rendition:layout-pre-paginated rendition:spread-none rendition:page-spread-center" />
+        <itemref idref="XHTML0001" />
+        <itemref idref="XHTML0002" />
+        <itemref idref="XHTML0003" />
+        <itemref idref="XHTML0004" />
+        <itemref idref="XHTML0005" />
+        <itemref idref="XHTML0006" />
+        <itemref idref="XHTML0007" />
+        <itemref idref="XHTML0008" />
+        <itemref idref="XHTML0009" />
+        <itemref idref="XHTML0010" />
+        <itemref idref="XHTML0011" />
+        <itemref idref="XHTML0012" />
+        <itemref idref="XHTML0013" />
+        <itemref idref="XHTML0014" />
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover" href="text/book_0000.xhtml" />
+        <reference type="toc" title="Table of Contents" href="text/book_0003.xhtml" />
+        <reference type="text" title="Bodymatter" href="text/book_0004.xhtml" />
+    </guide>
+</package>

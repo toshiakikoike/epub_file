@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/* -------------------------------------------------------------------------------
+  for vertical-rl
+ ------------------------------------------------------------------------------ */
+html {
+  -epub-writing-mode:vertical-rl;
+  -webkit-writing-mode:vertical-rl;
+}
+/* -----------------------------------------------------------------------------
+  [Type Selector]
+ ---------------------------------------------------------------------------- */
+/* body */
+body {
+  font-family: "@ＭＳ 明朝",serif;
+}
+/* headings */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+}
+/* -----------------------------------------------------------------------------
+  [Class Selector]
+ ---------------------------------------------------------------------------- */
+body.titlepage {
+}
+body.tocpage {
+}
+body.chapter_page {
+}
+body.body_text {
+}
+body.sectional_ttl {
+}
+body.colophonpage {
+}
+body.body_left {
+  text-align:left;
+}
+/* headings */
+h1.ttl {
+  font-family: "@ＭＳ 明朝",serif;
+}
+h2.tobira {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+  padding-right:2em;
+}
+h2.chapter {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+  padding-left:1em;
+}
+h3.subchapter {
+  padding-top:2em;
+  padding-right:0.7em;
+  padding-left:0.7em;
+  text-indent:-1em;
+}
+h2.tocttl {
+  letter-spacing: 1em;
+  padding-top:2em;
+  padding-left:1em;
+}
+h2.tocttl-en {
+  padding-top:2em;
+  padding-left:1em;
+}
+h4.sectionttl {
+  padding-right:0.7em;
+  padding-left:0.7em;
+  padding-top:2em;
+}
+h5.subsection {
+  padding-right:0.5em;
+  padding-left:0.5em;
+  padding-top:2.5em;
+}
+h6.topic {
+  padding-top:3em;
+}
+/* image */
+img.block {
+  max-width:50%;
+}
+img.inline {
+  max-width:50%;
+}
+/* text decoration */
+.underline {
+  text-decoration:overline;
+  text-underline-position: under left;
+  -webkit-text-underline-position:under left;
+}
+.gothic {
+  font-family: "@ＭＳ ゴシック",sans-serif !important;
+}
+.mincho {
+  font-family: "@ＭＳ 明朝",serif !important;
+}
+.character {
+  font-family: "@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.photocap {
+  padding-right:1em;
+}
+.col_start_1em {
+  padding-top:1em;
+}
+.col_start_5em {
+  padding-top:5em;
+}
+.col_latin {
+  font-family:"Times New Roman",serif;
+}
+/* indent */
+.asterisk_start {
+  padding-top:3em;
+}
+
+
+.level1 {
+  padding-top:0;
+}
+.level2 {
+  padding-top:1em;
+}
+.level3 {
+  padding-top:2em;
+}
+.toclevel1 {
+  padding-top:0;
+  padding-right:0.6em;
+}
+.toclevel2 {
+  padding-top:1em;
+}
+.toclevel3 {
+  padding-top:2em;
+}
+.footnote {
+  padding-top:3em;
+  text-indent:-2em;
+  font-size:90%;
+  padding-right:0.5em;
+  padding-left:1em;
+}
+.mystyle_Balloon0x20Text {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.mystyle_Document0x20Map {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:normal;
+}
+.mystyle_Hyperlink {
+  color:#0000ff;
+  text-decoration:overline;
+  text-underline-position: under left;
+  -webkit-text-underline-position:under left;
+}
+.mystyle_Normal {
+  text-indent:1em;
+}
+.mystyle_TOC0x20Heading {
+  color:#365f91;
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:120%;
+  margin-left:0em;
+  margin-right:3.84em;
+  text-align:justify;
+}
+.mystyle_annotation0x20reference {
+  font-size:90%;
+}
+.mystyle_annotation0x20subject {
+  font-weight:bold;
+  text-align:justify;
+}
+.mystyle_annotation0x20text {
+  text-align:justify;
+}
+.mystyle_character-10 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:bold;
+}
+.mystyle_character-20 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:100%;
+  font-weight:bold;
+}
+.mystyle_character-30 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+}
+.mystyle_character-a6 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.mystyle_character-aa {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:normal;
+}
+.mystyle_character-af4 {
+  font-weight:bold;
+}
+.mystyle_d_para_list {
+  padding-top:1em;
+  text-indent:-1em;
+}
+.mystyle_footer {
+  text-indent:1em;
+}
+.mystyle_header {
+  text-indent:1em;
+}
+.mystyle_heading {
+  }
+.mystyle_heading-1 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:bold;
+  margin-left:1.6em;
+  text-indent:1em;
+}
+.mystyle_heading-2 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:100%;
+  font-weight:bold;
+  margin-left:0.8em;
+  margin-right:0.8em;
+  text-indent:1em;
+}
+.mystyle_heading-3 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  margin-left:0.8em;
+  margin-right:0.8em;
+  padding-top:2em;
+  text-indent:1em;
+}
+.mystyle_list-para {
+  padding-top:4em;
+  text-indent:1em;
+}
+.mystyle_ll_in_h1 {
+  font-size:136%;
+}
+.mystyle_padding-start_2em_text-indent_1em {
+  padding-top:2em;
+  text-indent:1em;
+}
+.mystyle_paragraph-116pt {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:150%;
+  margin-left:1.6em;
+  padding-top:3em;
+  text-indent:1em;
+}
+.mystyle_paragraph-31 {
+  margin-left:0.8em;
+  margin-right:0.8em;
+  padding-top:3em;
+  text-indent:1em;
+}
+.mystyle_paragraph-340505 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  margin-left:1.6em;
+  margin-right:1.6em;
+  padding-top:2em;
+  text-indent:1em;
+}
+.mystyle_paragraph-a {
+  padding-top:4em;
+  text-indent:-2em;
+}
+.mystyle_paragraph-a4 {
+  font-size:90%;
+  padding-top:2em;
+}
+.mystyle_paragraph-a7 {
+  padding-top:3em;
+  text-indent:1em;
+}
+.mystyle_paragraph-a8 {
+  padding-top:2em;
+  text-indent:1em;
+}
+.mystyle_paragraph-af5 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  padding-top:2em;
+  text-indent:1em;
+}
+.mystyle_paragraph-af6 {
+  padding-top:4em;
+  text-indent:-2em;
+}
+.mystyle_paragraph-af7 {
+  padding-top:6em;
+  text-indent:1em;
+}
+.mystyle_text-indent_1_5em {
+  text-indent:1.5em;
+}
+.mystyle_text-indent_1em {
+  text-indent:1em;
+}
+.mystyle_tobira-head1 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:150%;
+  font-weight:bold;
+  padding-top:5em;
+}
+.mystyle_toc0x201 {
+  text-indent:1em;
+}
+.mystyle_toc0x202 {
+  padding-top:1em;
+  text-indent:1em;
+}
+.mystyle_toc0x203 {
+  padding-top:2em;
+  text-indent:1em;
+}
+

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:uuid:40D97B62-B7B7-11E7-A8FF-E40C64D0BE77" />
+		<meta name="dtb:depth" content="1" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+	<docTitle>
+		<text>小さなメディアの必要</text>
+	</docTitle>
+	<docAuthor>
+		<text>津野海太郎</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="navPoint-1" playOrder="1">
+			<navLabel>
+				<text>小さなメディアの必要</text>
+			</navLabel>
+			<content src="text/book_0000.xhtml" />
+			<navPoint id="navPoint-2" playOrder="2">
+				<navLabel>
+					<text>電子化への序</text>
+				</navLabel>
+				<content src="text/book_0002.xhtml#toc-001" />
+			</navPoint>
+			<navPoint id="navPoint-3" playOrder="3">
+				<navLabel>
+					<text>Ⅰ</text>
+				</navLabel>
+				<content src="text/book_0004.xhtml#toc-036" />
+				<navPoint id="navPoint-4" playOrder="4">
+					<navLabel>
+						<text>森の印刷所</text>
+					</navLabel>
+					<content src="text/book_0005.xhtml#toc-002" />
+						<navPoint id="navPoint-5" playOrder="5">
+							<navLabel>
+								<text>子ども百科のつくりかた</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-003" />
+						</navPoint>
+						<navPoint id="navPoint-6" playOrder="6">
+							<navLabel>
+								<text>雑誌のロンサム・カウボーイ</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-004" />
+						</navPoint>
+						<navPoint id="navPoint-7" playOrder="7">
+							<navLabel>
+								<text>太い指とからっぽの部屋</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-005" />
+						</navPoint>
+						<navPoint id="navPoint-8" playOrder="8">
+							<navLabel>
+								<text>ガリ版の話</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-006" />
+					</navPoint>
+				</navPoint>
+				<navPoint id="navPoint-9" playOrder="9">
+					<navLabel>
+						<text>本の野蛮状態のさきへ</text>
+					</navLabel>
+					<content src="text/book_0005.xhtml#toc-007" />
+						<navPoint id="navPoint-10" playOrder="10">
+							<navLabel>
+								<text>１　メキシコの漫画家リウス</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-008" />
+						</navPoint>
+						<navPoint id="navPoint-11" playOrder="11">
+							<navLabel>
+								<text>２　もうひとつの本の世界</text>
+							</navLabel>
+							<content src="text/book_0005.xhtml#toc-009" />
+					</navPoint>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint-12" playOrder="12">
+				<navLabel>
+					<text>Ⅱ</text>
+				</navLabel>
+				<content src="text/book_0006.xhtml#toc-037" />
+				<navPoint id="navPoint-13" playOrder="13">
+					<navLabel>
+						<text>海は人の母である</text>
+					</navLabel>
+					<content src="text/book_0007.xhtml#toc-010" />
+						<navPoint id="navPoint-14" playOrder="14">
+							<navLabel>
+								<text>１　よみがえる祭</text>
+							</navLabel>
+							<content src="text/book_0007.xhtml#toc-011" />
+						</navPoint>
+						<navPoint id="navPoint-15" playOrder="15">
+							<navLabel>
+								<text>２　海は人の母である——一九八○年三月</text>
+							</navLabel>
+							<content src="text/book_0007.xhtml#toc-012" />
+						</navPoint>
+						<navPoint id="navPoint-16" playOrder="16">
+							<navLabel>
+								<text>３　廃油ボール——一九八○年八月</text>
+							</navLabel>
+							<content src="text/book_0007.xhtml#toc-013" />
+						</navPoint>
+						<navPoint id="navPoint-17" playOrder="17">
+							<navLabel>
+								<text>４　沈黙する新聞——一九八○年九月</text>
+							</navLabel>
+							<content src="text/book_0007.xhtml#toc-014" />
+					</navPoint>
+				</navPoint>
+				<navPoint id="navPoint-18" playOrder="18">
+					<navLabel>
+						<text>国立民族学カタログ館</text>
+					</navLabel>
+					<content src="text/book_0007.xhtml#toc-015" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint-19" playOrder="19">
+				<navLabel>
+					<text>Ⅲ</text>
+				</navLabel>
+				<content src="text/book_0008.xhtml#toc-038" />
+				<navPoint id="navPoint-20" playOrder="20">
+					<navLabel>
+						<text>アジア演劇の練習</text>
+					</navLabel>
+					<content src="text/book_0009.xhtml#toc-016" />
+						<navPoint id="navPoint-21" playOrder="21">
+							<navLabel>
+								<text>１　ことのおこり</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-017" />
+						</navPoint>
+						<navPoint id="navPoint-22" playOrder="22">
+							<navLabel>
+								<text>２　タイ解放文化</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-018" />
+						</navPoint>
+						<navPoint id="navPoint-23" playOrder="23">
+							<navLabel>
+								<text>３　台本</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-019" />
+						</navPoint>
+						<navPoint id="navPoint-24" playOrder="24">
+							<navLabel>
+								<text>４　稽古</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-020" />
+						</navPoint>
+						<navPoint id="navPoint-25" playOrder="25">
+							<navLabel>
+								<text>５　上演</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-021" />
+					</navPoint>
+				</navPoint>
+				<navPoint id="navPoint-26" playOrder="26">
+					<navLabel>
+						<text>ふしぎな芝居を中国で見た</text>
+					</navLabel>
+					<content src="text/book_0009.xhtml#toc-022" />
+				</navPoint>
+				<navPoint id="navPoint-27" playOrder="27">
+					<navLabel>
+						<text>道化の解放</text>
+					</navLabel>
+					<content src="text/book_0009.xhtml#toc-023" />
+						<navPoint id="navPoint-28" playOrder="28">
+							<navLabel>
+								<text>１　道化の解放</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-024" />
+						</navPoint>
+						<navPoint id="navPoint-29" playOrder="29">
+							<navLabel>
+								<text>２　キンピカ劇場の夢</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-025" />
+						</navPoint>
+						<navPoint id="navPoint-30" playOrder="30">
+							<navLabel>
+								<text>３　アフリカの実験</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-026" />
+						</navPoint>
+						<navPoint id="navPoint-31" playOrder="31">
+							<navLabel>
+								<text>４　糞まみれの二つのヴィジョン</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-027" />
+					</navPoint>
+				</navPoint>
+				<navPoint id="navPoint-32" playOrder="32">
+					<navLabel>
+						<text>『西遊記』日記</text>
+					</navLabel>
+					<content src="text/book_0009.xhtml#toc-028" />
+						<navPoint id="navPoint-33" playOrder="33">
+							<navLabel>
+								<text>三月七日　旭川</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-029" />
+						</navPoint>
+						<navPoint id="navPoint-34" playOrder="34">
+							<navLabel>
+								<text>三月十六日　屋慶名</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-030" />
+						</navPoint>
+						<navPoint id="navPoint-35" playOrder="35">
+							<navLabel>
+								<text>四月十五日　新宿</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-039" />
+						</navPoint>
+						<navPoint id="navPoint-36" playOrder="36">
+							<navLabel>
+								<text>九月十四日　出町</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-031" />
+						</navPoint>
+						<navPoint id="navPoint-37" playOrder="37">
+							<navLabel>
+								<text>九月十六日　出町（つづき）</text>
+							</navLabel>
+							<content src="text/book_0009.xhtml#toc-032" />
+					</navPoint>
+				</navPoint>
+				<navPoint id="navPoint-38" playOrder="38">
+					<navLabel>
+						<text>演劇ぎらいの演劇</text>
+					</navLabel>
+					<content src="text/book_0009.xhtml#toc-033" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint-39" playOrder="39">
+				<navLabel>
+					<text>あとがき</text>
+				</navLabel>
+				<content src="text/book_0010.xhtml#toc-034" />
+				<navPoint id="navPoint-40" playOrder="40">
+					<navLabel>
+						<text>初出一覧</text>
+					</navLabel>
+					<content src="text/book_0011.xhtml#toc-035" />
+				</navPoint>
+			</navPoint>
+		</navPoint>
+	</navMap>
+</ncx>
