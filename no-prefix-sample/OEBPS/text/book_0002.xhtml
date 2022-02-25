@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>no-prefix style</title>
+  <style>
+    html {
+      text-underline-position:   under left;
+      -epub-writing-mode:vertical-rl;
+      writing-mode:vertical-rl;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+    .underline {
+      text-decoration:overline;
+      text-underline-position: under left;
+    }
+    .upright {
+      text-orientation:upright;
+    }
+    .sideways {
+      text-orientation: sideways;
+    }
+    .tcy {
+      text-combine-upright:all;
+    }
+    .em_accent {
+      text-emphasis-style: filled sesame;
+    }
+    .em_dot {
+      text-emphasis-style: filled double-circle;
+    }
+    .em_circle {
+      text-emphasis-style: open dot;
+    }
+    .em_disc {
+      text-emphasis-style: filled dot;
+    }
+    
+  </style>
+</head>
+<body class="body_text">
+<h1 class="mystyle_heading-1" id="toc-001">縦書きのみプレフィクスあり（-epub-writing-mode:vertical-rl）</h1>
+<p>縦書き（-epub-writing-mode:vertical-rl）</p>
+<p><span class="underline">アンダーラインポジション</span>（text-underline-position）</p>
+<p><span class="sideways">右</span><span class="sideways">：</span>文字回転・右回転（text-orientation:sideways）</p>
+<p><span class="tcy">95</span><span class="sideways">：</span>縦中横（text-combine-upright:all）</p>
+<p><span class="em_accent">黒ゴマ</span>（text-emphasis-style:filled sesame）</p>
+<p><span class="em_disc">黒丸</span>（text-emphasis-style:filled dot）</p>
+<p><span class="em_circle">白丸</span>（text-emphasis-style:open dot）</p>
+<p><span class="em_dot">蛇の目</span>（text-emphasis-style:filled double-circle）</p>
+</body>
+</html>

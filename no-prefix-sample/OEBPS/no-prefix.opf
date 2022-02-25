@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0" xml:lang="ja" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">no-prefix style sample</dc:title>
+        
+        <dc:creator id="creator1">toshiaki koike</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role1">aut</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <dc:language>ja</dc:language>
+        <dc:identifier id="pub-id">urn:uuid:7b11e464-8672-45f1-a3e8-3cd30bd3c44a</dc:identifier>
+        <dc:date>2022-02-24T10:03:34Z</dc:date>
+        <meta property="dcterms:modified">2022-02-24T10:03:34Z</meta>
+        <meta property="ibooks:respect-image-size-class">gaiji</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:spread">auto</meta>
+        <meta property="rendition:orientation">auto</meta>
+    </metadata>
+    <manifest>
+        <item id="TOC" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml" />
+        <item id="XHTML0001" href="text/book_0001.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0002" href="text/book_0002.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0003" href="text/book_0003.xhtml" media-type="application/xhtml+xml" />
+    </manifest>
+    <spine page-progression-direction="rtl">
+        <itemref idref="XHTML0001" />
+        <itemref idref="XHTML0002" />
+        <itemref idref="XHTML0003" />
+    </spine>
+</package>
