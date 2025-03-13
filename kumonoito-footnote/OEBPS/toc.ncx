@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:F5B5D4AA-FFDE-11EF-B846-D9E3057F439B" />
+        <meta name="dtb:depth" content="1" />
+        <meta name="dtb:totalPageCount" content="0" />
+        <meta name="dtb:maxPageNumber" content="0" />
+    </head>
+    <docTitle>
+        <text>蜘蛛の糸</text>
+    </docTitle>
+    <docAuthor>
+        <text>芥川龍之介</text>
+    </docAuthor>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1">
+            <navLabel>
+                <text>蜘蛛の糸</text>
+            </navLabel>
+            <content src="text/book_0000.xhtml" />
+            <navPoint playOrder="2" id="navPoint-2">
+                <navLabel>
+                    <text>蜘蛛の糸</text>
+                </navLabel>
+                <content src="text/book_0002.xhtml#toc-001" />
+            </navPoint>
+            <navPoint id="navPoint-3" playOrder="3">
+                <navLabel>
+                    <text>一</text>
+                </navLabel>
+                <content src="text/book_0003.xhtml#toc-002" />
+            </navPoint>
+            <navPoint playOrder="4" id="navPoint-4">
+                <navLabel>
+                    <text>二</text>
+                </navLabel>
+                <content src="text/book_0004.xhtml#toc-004" />
+            </navPoint>
+            <navPoint id="navPoint-5" playOrder="5">
+                <navLabel>
+                    <text>三</text>
+                </navLabel>
+                <content src="text/book_0005.xhtml#toc-005" />
+            </navPoint>
+        </navPoint>
+    </navMap>
+</ncx>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0" xml:lang="ja" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">蜘蛛の糸</dc:title>
+        
+        <dc:creator id="creator1">芥川龍之介</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role1">aut</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <dc:language>ja</dc:language>
+        <dc:identifier id="pub-id">urn:uuid:F5B5D4AA-FFDE-11EF-B846-D9E3057F439B</dc:identifier>
+        <dc:date>2025-03-13T07:44:14Z</dc:date>
+        <meta property="dcterms:modified">2025-03-13T08:07:17Z</meta>
+        <meta name="cover" content="my-cover-image" />
+        <meta property="ibooks:respect-image-size-class">gaiji</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:spread">auto</meta>
+        <meta property="rendition:orientation">auto</meta>
+        <meta property="dcterms:conformsTo" id="conf">EPUB Accessibility 1.1 - WCAG 2.0 Level A</meta>
+        <meta property="a11y:certifiedBy" refines="#conf">Voyager Romancer Epub Converter(https://romancer.voyager.co.jp/)</meta>
+        <meta property="schema:accessMode">textual</meta>
+        <meta property="schema:accessModeSufficient">textual</meta>
+        <meta property="schema:accessibilityFeature">tableOfContents</meta>
+        <meta property="schema:accessibilityFeature">rubyAnnotations</meta>
+        <meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+        <meta property="schema:accessibilityHazard">noSoundHazard</meta>
+        <meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+        <meta property="schema:accessibilitySummary">このEPUB出版物のアクセシビリティ要件は、Voyager Romancer EPUB ConverterによるEPUB生成時に機械的に判定されています。</meta>
+    </metadata>
+    <manifest>
+        <item id="TOC" href="toc.xhtml" properties="nav" media-type="application/xhtml+xml" />
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <item id="XHTML0000" href="text/book_0000.xhtml" media-type="application/xhtml+xml" properties="svg" />
+        <item id="XHTML0001" href="text/book_0001.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0002" href="text/book_0002.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0003" href="text/book_0003.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0004" href="text/book_0004.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0005" href="text/book_0005.xhtml" media-type="application/xhtml+xml" />
+        <item id="XHTML0006" href="text/book_0006.xhtml" media-type="application/xhtml+xml" />
+        <item id="my-cover-image" href="images/cover.png" properties="cover-image" media-type="image/png" />
+        <item id="CSS1" href="styles/ebook_common.css" media-type="text/css" />
+        <item id="CSS2" href="styles/ebook_style.css" media-type="text/css" />
+        <item id="CSS3" href="styles/ebook_style_v.css" media-type="text/css" />
+        <item id="CSS5" href="styles/ebook_style_x.css" media-type="text/css" />
+        <item id="CSS4" href="styles/ebook_style_h.css" media-type="text/css" />
+    </manifest>
+    <spine page-progression-direction="rtl" toc="ncx">
+        <itemref idref="XHTML0000" properties="rendition:layout-pre-paginated rendition:spread-none rendition:page-spread-center" />
+        <itemref idref="XHTML0001" />
+        <itemref idref="XHTML0002" />
+        <itemref idref="XHTML0003" />
+        <itemref idref="XHTML0004" />
+        <itemref idref="XHTML0005" />
+        <itemref idref="XHTML0006" />
+    </spine>
+</package>

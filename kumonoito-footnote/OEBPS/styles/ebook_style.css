@@ -1,0 +1,335 @@
+@charset "UTF-8";
+html {
+  -webkit-text-underline-position:under left;
+  -epub-text-underline-position:   under left;
+  text-underline-position:   under left;
+}
+img.pagefit {
+  display:block;
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width:100%;
+  max-height:100%;
+}
+img.block {
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%; /* 縦書き時には50%になるようにオーバーライド */
+  max-height:100%; /* 横書き時には50%になるようにオーバーライド */
+}
+img.inline {
+  display:inline;
+  width:auto;
+  height:auto;
+  max-width:100%; /* 縦書き時には50%になるようにオーバーライド */
+  max-height:100%; /* 横書き時には50%になるようにオーバーライド */
+}
+img.w1 {
+  display:inline;
+  width:1em;
+  height:auto;
+}
+img.w12 {
+  display:inline;
+  width:1.3em;
+  height:auto;
+}
+img.w2 {
+  display:inline;
+  width:2.5em;
+  height:auto;
+}
+img.w3 {
+  display:inline;
+  width:4.5em;
+  height:auto;
+}
+img.w4 {
+  display:inline;
+  width:6em;
+  height:auto;
+}
+img.height1 {
+  display:inline;
+  height:1em;
+  width:auto;
+  max-width:100%;
+}
+img.height12 {
+  display:inline;
+  height:1.3em;
+  width:auto;
+  max-width:100%;
+}
+img.height2 {
+  display:inline;
+  height:2.5em;
+  width:auto;
+  max-width:100%;
+}
+img.height3 {
+  display:inline;
+  height:4.5em;
+  width:auto;
+  max-width:100%;
+}
+img.height4 {
+  display:inline;
+  height:7em;
+  width:auto;
+  max-width:100%;
+}
+.upright {
+  -epub-text-orientation:upright;
+  -webkit-text-orientation:upright;
+  text-orientation:upright;
+}
+.sideways {
+  -webkit-text-orientation: sideways;
+  -epub-text-orientation: sideways;
+  text-orientation: sideways;
+}
+.upright-1 {
+  -epub-text-combine:horizontal;
+  -webkit-text-combine:horizontal;
+  -webkit-text-combine-upright:all;
+  text-combine-upright:all;
+}
+/* -----------------------------------------------------------------------------
+  [Type Selector]
+ ---------------------------------------------------------------------------- */
+/* body */
+body {
+  line-height: 1.75;
+  text-align: justify;
+  /*text-justify: inter-ideograph;*/
+}
+/* headings */
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+/* link */
+a {
+  text-decoration: none;
+}
+a:link {
+  color:#0044ff;
+}
+a:visited {
+  color:#0044ff;
+}
+.blacklink a:link, .blacklink a:visited {
+  color: #000000;
+}
+.muturallink a:link, .muturallink a:visited {
+  color: #0055ff;
+}
+/*  default table style */
+table {
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+}
+th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  background-color: #dedede;
+  font-weight: bold;
+  font-size: 90%;
+  padding:0.3em;
+}
+td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  font-size: 90%;
+  padding:0.3em
+}
+/* -----------------------------------------------------------------------------
+  [Class Selector]
+ ---------------------------------------------------------------------------- */
+body.coverpage {
+  text-align:center;
+  margin:0;
+  padding:   0;
+  font-size: 0;
+}
+body.imgpage {
+  text-align:center;
+  margin:0;
+  padding:   0;
+  font-size: 0;
+}
+body.imgpage2 {
+  height:100%;
+  text-align:center;
+}
+body.imgpage80 {
+  background-color: #ffffff;
+  text-align:center;
+  margin-top:5%;
+}
+body.tocpage {
+  text-align: left;
+}
+/* headings */
+h1.ttl {
+  font-size: 120%;
+  font-weight: bold;
+}
+h1.imgttl {
+  margin: 0;
+  padding: 0;
+}
+h1.tobira {
+  font-size:140%;
+}
+h1.chapter {
+  font-size:140%;
+}
+h1.tocttl {
+  font-size: 120%;
+  font-weight: bold;
+}
+h1.tocttl-en {
+  font-size: 120%;
+  font-weight: bold;
+}
+h2.subchapter {
+  font-size: 110%;
+  font-weight: bold;
+}
+h1.toc {
+  font-size: 110%;
+  font-weight: bold;
+}
+h3.sectionttl {
+  font-size: 100%;
+  font-weight: bold;
+}
+h4.subsection {
+  font-size: 100%;
+  font-weight: bold;
+}
+h5.topic {
+  font-size: 100%;
+  font-weight: bold;
+}
+h1.invisible {
+  display:none;
+}
+h1.smplchapt {
+  font-size:100%;
+  font-weight:bold;
+}
+h1.smplchapt_h1 {
+  font-size:120%;
+  font-weight:bold;
+}
+.imghead {
+  margin: 0;
+  padding: 0;
+}
+svg.svgfit {
+  margin: 0;
+  padding: 0;
+}
+div.imgfit {
+  margin: 0;
+  padding: 0;
+}
+.bdr { /* default border */
+  padding: 0.5em;
+  border: 1px solid #000000;
+}
+/* text decoration */
+.kakko {
+  font-size:90%;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style:italic;
+}
+.large {
+  font-size:110%;
+}
+.larger {
+  font-size:150%;
+}
+.small {
+  font-size:90%;
+}
+.smaller {
+  font-size:80%;
+}
+.photocap {
+  font-size:85%;
+  font-weight:normal;
+}
+.author_top_title {
+  font-size:110%;
+}
+/* for roman */
+.serif_italic {
+  font-family: serif;
+  font-style:italic;
+}
+.serif_bold {
+  font-family: serif;
+  font-weight: bold;
+}
+.serif_italic_bold {
+  font-family: serif;
+  font-style:italic;
+  font-weight: bold;
+}
+.sansserif_italic {
+  font-family: sans-serif;
+  font-style:italic;
+}
+.sansserif_bold {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.sansserif_italic_bold {
+  font-family: sans-serif;
+  font-style:italic;
+  font-weight: bold;
+}
+/* sub/sup */
+.sup {
+  font-size:70%;
+  vertical-align:super;
+}
+.sub {
+  font-size:70%;
+  vertical-align:sub;
+}
+.noteref {
+  vertical-align:super;
+}
+.DoublyArticulatedConsonant {
+  -epub-text-combine:horizontal;
+  -webkit-text-combine:horizontal;
+  -webkit-text-combine-upright:all;
+  text-combine-upright:all;
+  vertical-align:super;
+  font-size:70%;
+  letter-spacing:-4px;
+}
+/* toc spacing */
+span.tocspacing05 {
+  letter-spacing: 0.5em;
+}
+span.tocspacing1 {
+  letter-spacing: 1em;
+}
+span.tocspacing2 {
+  letter-spacing: 2em;
+}

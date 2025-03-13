@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* -------------------------------------------------------------------------------
+  for vertical-rl
+ ------------------------------------------------------------------------------ */
+html {
+  -epub-writing-mode:horizontal-tb;
+  -webkit-writing-mode:horizontal-tb;
+  writing-mode:horizontal-tb;
+}
+/* -----------------------------------------------------------------------------
+  [Type Selector]
+ ---------------------------------------------------------------------------- */
+/* body */
+body {
+  font-family: "@ＭＳ 明朝",serif;
+}
+/* headings */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+}
+/* -----------------------------------------------------------------------------
+  [Class Selector]
+ ---------------------------------------------------------------------------- */
+body.titlepage {
+}
+body.tocpage {
+}
+body.chapter_page {
+}
+body.body_text {
+}
+body.sectional_ttl {
+}
+body.colophonpage {
+}
+body.body_left {
+  text-align:left;
+}
+/* headings */
+h1.ttl {
+  font-family: "@ＭＳ 明朝",serif;
+}
+h1.tobira {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+  padding-right:2em;
+}
+h1.chapter {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+  padding-left:1em;
+}
+h2.subchapter {
+  padding-top:2em;
+  padding-right:0.7em;
+  padding-left:0.7em;
+  text-indent:-1em;
+}
+h1.tocttl {
+  letter-spacing: 1em;
+  padding-top:2em;
+  padding-left:1em;
+}
+h1.tocttl-en {
+  padding-top:2em;
+  padding-left:1em;
+}
+h3.sectionttl {
+  padding-right:0.7em;
+  padding-left:0.7em;
+  padding-top:2em;
+}
+h4.subsection {
+  padding-right:0.5em;
+  padding-left:0.5em;
+  padding-top:2.5em;
+}
+h5.topic {
+  padding-top:3em;
+}
+h1.smplchapt {
+  font-family: "@ＭＳ 明朝",serif;
+}
+h1.smplchapt_h1 {
+  font-family: "@ＭＳ ゴシック",sans-serif;
+}
+/* image */
+img.block {
+  max-width:50%;
+}
+img.inline {
+  max-width:50%;
+}
+/* text decoration */
+.underline {
+  text-decoration:overline;
+  -webkit-text-underline-position:under left;
+  text-underline-position: under left;
+}
+.gothic {
+  font-family: "@ＭＳ ゴシック",sans-serif !important;
+}
+.mincho {
+  font-family: "@ＭＳ 明朝",serif !important;
+}
+.character {
+  font-family: "@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.photocap {
+  padding-right:1em;
+}
+.col_start_1em {
+  padding-top:1em;
+}
+.col_start_5em {
+  padding-top:5em;
+}
+.col_latin {
+  font-family:"Times New Roman",serif;
+}
+/* indent */
+.asterisk_start {
+  padding-top:3em;
+}
+
+
+.level1 {
+  padding-top:0;
+}
+.level2 {
+  padding-top:1em;
+}
+.level3 {
+  padding-top:2em;
+}
+.toclevel1 {
+  padding-top:0;
+  padding-right:1em;
+}
+.toclevel1only {
+  padding-top:0;
+}
+.toclevel2 {
+  padding-top:1em;
+}
+.toclevel3 {
+  padding-top:2em;
+}
+.toclevel4 {
+  padding-top:3em;
+}
+.toclevel5 {
+  padding-top:4em;
+}
+.toclt2 {
+  padding-top: 1.5em;
+  padding-left: 0.5em;
+  font-size:90%;
+}
+.toclt3 {
+  padding-top: 2.5em;
+  padding-left: 0.5em;
+  font-size:90%;
+}
+.toclt4 {
+  padding-top: 3em;
+  padding-left: 0.5em;
+  font-size:90%;
+}
+.toclt5 {
+  padding-top: 3.5em;
+  padding-left: 0.5em;
+  font-size:90%;
+}
+.footnote {
+  padding-top:3em;
+  text-indent:-2em;
+  font-size:90%;
+  padding-right:0.5em;
+  padding-left:1em;
+}
+.mystyle_Balloon0x20Text {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.mystyle_Hyperlink {
+  color:#0000ff;
+  text-decoration:overline;
+  -webkit-text-underline-position: under left;
+  text-underline-position:under left;
+}
+.mystyle_Unresolved0x20Mention {
+  color:#605e5c;
+}
+.mystyle_annotation0x20reference {
+  font-size:90%;
+}
+.mystyle_annotation0x20subject {
+  font-weight:bold;
+  text-align:justify;
+}
+.mystyle_annotation0x20text {
+  text-align:justify;
+}
+.mystyle_character-10 {
+  font-family:"@ＭＳ 明朝",serif;
+  font-size:150%;
+  font-weight:bold;
+}
+.mystyle_character-20 {
+  font-family:"@ＭＳ 明朝",serif;
+}
+.mystyle_character-40 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:bold;
+}
+.mystyle_character-a5 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:90%;
+}
+.mystyle_character-af2 {
+  font-weight:bold;
+}
+.mystyle_d_para_list {
+  padding-top:1em;
+  text-indent:-1em;
+}
+.mystyle_footnote0x20reference {
+  font-size:70%;
+  vertical-align:super;
+}
+.mystyle_footnote0x20text {
+  text-align:justify;
+}
+.mystyle_heading {
+  }
+.mystyle_heading-1 {
+  font-family:"@ＭＳ 明朝",serif;
+  font-size:150%;
+  font-weight:bold;
+  margin-left:1.6em;
+  margin-right:0;
+  padding-top:3em;
+}
+.mystyle_heading-2 {
+  font-family:"@ＭＳ 明朝",serif;
+  margin-left:1.6em;
+  margin-right:1.6em;
+  padding-top:3em;
+}
+.mystyle_heading-4 {
+  font-family:"@ＭＳ ゴシック",sans-serif !important;
+  font-size:110%;
+  font-weight:bold;
+  margin-left:0.8em;
+  margin-right:0.8em;
+  text-align:justify;
+}
+
+
+div.chapt {
+  width: auto;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  -epub-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+div.xcp {
+  width: auto;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  -epub-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
